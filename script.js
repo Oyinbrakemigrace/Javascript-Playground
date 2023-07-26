@@ -34,3 +34,16 @@
 // }
 // const currentDate = `${dd}/${mm}/${year}`
 // console.log(currentDate)
+
+// Reverse a string
+// const string = 'hello world'
+// const reversedString = string.split('').reverse().join('')
+// console.log(reversedString)
+
+//Find out if 1st January will be a Sunday between 2014 and 2050.
+// for(let year = 2014; year<=2050; year++){
+//     let y = new Date(year, 0, 1) //The Date Object takes 3 arguments : year, month, day
+//     if(y.getDay()===0){
+//         console.log(`${year} begins with sunday`)
+//     }
+// }
