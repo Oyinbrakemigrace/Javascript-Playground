@@ -46,4 +46,4 @@
 //     if(y.getDay()===0){
 //         console.log(`${year} begins with sunday`)
 //     }
-// }
+// };
