@@ -16,7 +16,7 @@
 //     window.print()
 // }
 
-// Get the current date in either of this format mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy .  
+// Get the current date in either of this format mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy .
 // const today = new Date()
 // const day = today.getDate()
 // const month = today.getMonth() +1
@@ -47,3 +47,28 @@
 //         console.log(`${year} begins with sunday`)
 //     }
 // }
+
+//Rock Paper Scissors
+
+// const gameOptions = ["rock", "paper", "scissors"];
+
+// const game = () => {
+//   const human = prompt("Choose either rock, paper or scissors");
+//   const computer = gameOptions[Math.floor(Math.random() * gameOptions.length)];
+//   console.log(computer);
+
+//   if (
+//     (human === "rock" && computer === "scissors") ||
+//     (human === "paper" && computer === "rock") ||
+//     (human === "scissors" && computer === "paper")
+//   ) {
+//     alert("human wins!");
+//   } else if (human === computer) {
+//     alert("it is a draw");
+//   } else if (human !== gameOptions.includes()) {
+//     alert("you have to choose either rock,paper or scissors");
+//   } else {
+//     alert("computer wins!");
+//   }
+// };
+// game();
