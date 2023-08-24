@@ -71,4 +71,4 @@
 //     alert("computer wins!");
 //   }
 // };
-// game();
+//  game();
